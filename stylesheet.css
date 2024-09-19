@@ -48,3 +48,18 @@ p {
     font-size: 1.2em;
     margin-top: 0;
 }
+
+.logInButton {
+    background-color: transparent;
+    border: 2px solid #A3B18A;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 5px;
+}
+
+.logInButton:hover{
+    background-color: #A3B18A;
+    color: #DAD7CD;
+}
